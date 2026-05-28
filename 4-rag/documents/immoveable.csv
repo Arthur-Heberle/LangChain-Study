@@ -1,0 +1,5 @@
+id,tipo,bairro,area_m2,quartos,valor,status
+001,Apartamento,Centro,72,2,280000,venda
+002,Casa,Jardim América,140,3,420000,venda
+003,Terreno,Bela Vista,360,0,95000,venda
+004,Apartamento,São Cristóvão,58,2,1200,aluguel

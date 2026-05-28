@@ -1,0 +1,57 @@
+JR Imóveis - Catanduvas, SC
+Catálogo de Imóveis Disponíveis
+
+--- IMÓVEL 001 ---
+Tipo: Apartamento
+Bairro: Centro
+Cidade: Catanduvas, SC
+Área: 72m²
+Quartos: 2
+Banheiros: 1
+Vaga de garagem: 1
+Valor de venda: R$ 280.000
+Descrição: Apartamento no segundo andar, sem elevador, piso em porcelanato, cozinha americana, sacada com churrasqueira. Prédio com 8 anos de construção.
+
+--- IMÓVEL 002 ---
+Tipo: Casa
+Bairro: Jardim América
+Cidade: Catanduvas, SC
+Área: 140m²
+Quartos: 3
+Banheiros: 2
+Vaga de garagem: 2
+Valor de venda: R$ 420.000
+Descrição: Casa térrea em condomínio fechado, quintal com 200m², churrasqueira coberta, área de serviço separada. Documentação regularizada.
+
+--- IMÓVEL 003 ---
+Tipo: Terreno
+Bairro: Bela Vista
+Cidade: Catanduvas, SC
+Área: 360m²
+Valor de venda: R$ 95.000
+Descrição: Terreno plano, escriturado, localizado a 400m da escola municipal. Ideal para construção de casa ou sobrado.
+
+--- IMÓVEL 004 ---
+Tipo: Apartamento
+Bairro: São Cristóvão
+Cidade: Catanduvas, SC
+Área: 58m²
+Quartos: 2
+Banheiros: 1
+Vaga de garagem: 1
+Valor de aluguel: R$ 1.200/mês
+Descrição: Apartamento para locação, terceiro andar com elevador, condomínio inclui academia e salão de festas.
+
+--- PERGUNTAS FREQUENTES ---
+
+Quais documentos são necessários para comprar um imóvel?
+RG, CPF, comprovante de renda dos últimos 3 meses, comprovante de residência e certidão de estado civil atualizada.
+
+A JR Imóveis financia diretamente?
+Não. A JR Imóveis trabalha como correspondente bancário do Banco do Brasil e Caixa Econômica Federal, auxiliando na documentação e simulação de financiamento.
+
+Qual o prazo médio para conclusão de uma obra?
+Para projetos próprios da incorporadora, o prazo médio é de 18 a 24 meses a partir da emissão do alvará de construção.
+
+Como funciona a avaliação de imóvel para venda?
+A JR Imóveis realiza avaliação gratuita. Um corretor visita o imóvel, analisa localização, estado de conservação e preços de mercado na região, e emite um laudo em até 5 dias úteis.
