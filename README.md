@@ -35,8 +35,8 @@ langchain-curso/
 **1. Clone the repository and create the virtual environment**
 
 ```bash
-git clone https://github.com/your-username/langchain-curso.git
-cd langchain-curso
+git clone https://github.com/Arthur-Heberle/LangChain-Study
+cd LangChain-Study
 
 python3 -m venv .venv
 source .venv/bin/activate

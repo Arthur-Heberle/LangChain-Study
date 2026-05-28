@@ -9,7 +9,7 @@ load_dotenv()
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
 embeddings = GoogleGenerativeAIEmbeddings(
-    model="models/text-embedding-004",  # Best model to embedding on gemini
+    model="models/gemini-embedding-001",  # Best model to embedding on gemini
     google_api_key=os.getenv("GEMINI_API_KEY")
 )
 
@@ -34,7 +34,7 @@ results1 = vectorstore.similarity_search(query1,k=2)
 for i, doc in enumerate(results1):
     print(f"Result {i+1}: {doc.page_content[:200]}\n")
 
-print("=== SIMILARITY SEARCH WITH SCORE TEST ===\n")
+print("=== SIMILARITY SEARCH WITH SCORE TEST ===\n") # Score close to 0 is more similar 
 results_score = vectorstore.similarity_search_with_score("terreno à venda", k=3)
 for doc, score in results_score:
-    print(f"Score: {score:.4f} | Chunk: {doc.page_content[:150]}\n")
+    print(f"Score: {score:.4f} | Chunk: \n{doc.page_content[:150]}\n")
