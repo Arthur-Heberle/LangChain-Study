@@ -1,4 +1,4 @@
-# Day 2 — Chains
+# 2 — Chains
 
 Chaining multiple processing steps with LangChain. The output of one chain becomes the input of the next, enabling complex pipelines in a readable way.
 

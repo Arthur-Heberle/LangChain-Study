@@ -19,11 +19,18 @@ docs = loader.load()
 splitter = RecursiveCharacterTextSplitter(chunk_size=400, chunk_overlap=50)
 chunks = splitter.split_documents(docs)
 
-vectorstore = Chroma.from_documents(
-    documents=chunks,
-    embedding=embeddings,
-    persist_directory="./4-rag/chroma_db"  # persiste em disco
-)
+DB_PATH = "./4-rag/chroma_db"
+
+# Só indexa se o banco não existir ainda
+if os.path.exists(DB_PATH):
+    print("Banco já existe. Delete a pasta manualmente para reindexar.")
+else:
+    vectorstore = Chroma.from_documents(
+        documents=chunks,
+        embedding=embeddings,
+        persist_directory=DB_PATH
+    )
+    print(f"Indexação completa. {vectorstore._collection.count()} vetores no banco.")
 
 print(f"Complete indexing. {vectorstore._collection.count()} vectors in base\n")
 
@@ -35,6 +42,8 @@ for i, doc in enumerate(results1):
     print(f"Result {i+1}: {doc.page_content[:200]}\n")
 
 print("=== SIMILARITY SEARCH WITH SCORE TEST ===\n") # Score close to 0 is more similar 
-results_score = vectorstore.similarity_search_with_score("terreno à venda", k=3)
+results_score = vectorstore.similarity_search_with_score("imovel de aluguel", k=3)
 for doc, score in results_score:
     print(f"Score: {score:.4f} | Chunk: \n{doc.page_content[:150]}\n")
+print("\n\n")
+print(results_score.keys.page_content)

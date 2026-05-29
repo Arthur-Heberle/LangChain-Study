@@ -1,4 +1,4 @@
-# Day 1 — Fundamentals
+# 1 — Fundamentals
 
 First contact with LangChain: connecting to an LLM, using PromptTemplates, and building a basic chain with the pipe operator (`|`).
 

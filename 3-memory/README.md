@@ -1,4 +1,4 @@
-# Day 3 — Memory & Conversation
+# 3 — Memory & Conversation
 
 Adding memory to a chatbot. The LLM has no native memory — the conversation history is accumulated in Python and resent on every call.
 
